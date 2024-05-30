@@ -1,0 +1,9 @@
+function greetUser(name, timeOfDay) {
+
+    var capitalizedTime = timeOfDay.charAt(0).toUpperCase() + timeOfDay.slice(1);
+    
+    
+    return "Good " + capitalizedTime + ", " + name + "!";
+}
+
+console.log('Exercise 5 Result:', greetUser("Sam", "morning"));

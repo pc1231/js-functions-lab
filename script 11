@@ -1,0 +1,15 @@
+function createUsername(firstName, lastName) {
+    
+    var firstPart = firstName.slice(0, 3);
+    
+    
+    var secondPart = lastName.slice(0, 3);
+    
+    
+    var totalCount = firstName.length + lastName.length;
+    
+   
+    return firstPart + secondPart + totalCount;
+}
+
+console.log('Exercise 11 Result:', createUsername("Samantha", "Green")); 

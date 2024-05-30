@@ -1,0 +1,6 @@
+function calculateTip(billAmount, tipPercentage) {
+
+    return (billAmount * tipPercentage) / 100;
+}
+
+console.log('Exercise 7 Result:', calculateTip(50, 20));
